@@ -419,6 +419,7 @@ def create_country_tab():
             fn=analyze_countries,
             inputs=[a, b, situation],
             outputs=[country_result, detail_table]
+        )
 
 # 8. 세 번째 탭: 전체 21개 국가 조합 비교
 
